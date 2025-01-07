@@ -136,3 +136,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MEDIA_URL = "/accd/"
 MEDIA_ROOT = BASE_DIR
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://zikrapulwama.onrender.com',
+]
+
